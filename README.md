@@ -7,10 +7,7 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 <blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy)"><strong>website</strong></a>.
 </blockquote>
 
-<br>
-<br>
-
-📢 This is the npm version of this project, if you are looking for the vanilla JavaScript version, check **[this](https://github.com/igorskyflyer/uarray)**.
+<blockquote align="center">📢 This is the npm version of this project, if you are looking for the vanilla JavaScript version, check <a href="https://github.com/igorskyflyer/uarray"><strong>this</strong></a>.</blockquote>
 
 <br>
 
