@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use strict'
 
 /**
@@ -6,7 +7,9 @@
  * @returns {Array}
  */
 function UArray(items) {
-  if (!items) {
+  // handles both undefined param,
+  // and tests if the param is an Array
+  if (!(items instanceof Array)) {
     return []
   }
 
