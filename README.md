@@ -1,7 +1,7 @@
 ## UArray
 
 <p align="center">
-	<img src="https://github.com/igorskyflyer/npm-uarray/raw/main/assets/uArray.png" width="140" height="140">
+	<img src="https://raw.githubusercontent.com/igorskyflyer/npm-uarray/main/assets/uArray.png" width="140" height="140">
 </p>
 
 <br>
