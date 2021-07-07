@@ -1,6 +1,6 @@
 ## UArray
 
-Provides `UArray`, an `Array` type that supports negative indices/indexes, just wrap your _regular_ JavaScript array with `UArray()` and you are all set! 🎉🙌
+Provides `UArray`, an `Array` type that supports negative indices/indexes, just wrap your _regular_ JavaScript array with `UArray()` or pass the elements directly to `UArray()` and you are all set! 🎉🙌
 
 <br>
 
