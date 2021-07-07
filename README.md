@@ -1,5 +1,11 @@
 ## UArray
 
+<p align="center">
+	<img src="https://github.com/igorskyflyer/npm-uarray/raw/main/assets/uArray.png" width="140" height="140">
+</p>
+
+<br>
+
 Provides `UArray`, an `Array` type that supports negative indices/indexes, just wrap your _regular_ JavaScript array with `UArray()` or pass the elements directly to `UArray()` and you are all set! 🎉🙌
 
 <br>
