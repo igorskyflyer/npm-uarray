@@ -4,7 +4,7 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
-<blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy)"><strong>Can I Use</strong></a> website.
+<blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy"><strong>Can I Use</strong></a> website.
 </blockquote>
 
 <br>
