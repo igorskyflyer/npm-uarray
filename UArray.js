@@ -3,14 +3,28 @@
 
 /**
  * Creates an Array that supports negative indices / indexes.
- * @param {Array} items
+ * You can pass a single parameter of type `Array`
+ * or multiple parameters of any primitive type.
+ *
+ *
+ * **NOTE**: the actual return type is `Proxy` but since `Proxy`
+ * objects behave the same way as the `target` object
+ * whose behavior they modify, the return type is overridden.
+ * @param {...any} [items]
  * @returns {Array}
  */
 function UArray(items) {
-  // handles both undefined param,
-  // and tests if the param is an Array
-  if (!(items instanceof Array)) {
-    return []
+  const argsCount = arguments.length
+
+  if (argsCount <= 1 && !(arguments[0] instanceof Array)) {
+    items = []
+  }
+
+  if (argsCount > 1) {
+    // converts `arguments` object to a regular `Array`,
+    // and as a consequence removes the `[Arguments]` message,
+    // when console-logging the array 🥳
+    items = Array.prototype.slice.call(arguments)
   }
 
   return new Proxy(items, {
