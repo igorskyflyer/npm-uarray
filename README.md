@@ -23,6 +23,10 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
+✨ Since `v.1.1.0` the function signature has been changed and now it supports 2 different ways of action. You can now pass a single parameter of type `Array` or multiple parameters of any primitive type.
+
+<br>
+
 Install it first by doing,
 
 ```shell
@@ -37,10 +41,14 @@ and then use it,
 
 ```js
 const UArray = require('@igor.dvlpr/uarray')
-const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓'])
+const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓']) // array passed
+const objects = UArray('🎈', '🎩', '⚽', '🥇', '🎯') // no array passed, just direct values
 
 console.log(food[-1]) // prints '🥓'
 console.log(food[-3]) // prints '🍿'
+
+console.log(objects[-1]) // prints '🎯'
+console.log(objects[-3]) // prints '⚽'
 ```
 
 <br>
