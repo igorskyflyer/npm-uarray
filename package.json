@@ -3,6 +3,11 @@
 	"version": "1.1.5",
 	"description": "Provides UArray, an Array type that supports negative indices/indexes.",
 	"main": "UArray.js",
+	"files": [
+		"UArray.js",
+		"dist"
+	],
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"test": "mocha --slow 0",
 		"pub": "npm test && tsc && npm publish --access public"
