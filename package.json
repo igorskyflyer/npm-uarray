@@ -1,11 +1,11 @@
 {
 	"name": "@igor.dvlpr/uarray",
-	"version": "1.1.4",
+	"version": "1.1.5",
 	"description": "Provides UArray, an Array type that supports negative indices/indexes.",
 	"main": "UArray.js",
 	"scripts": {
 		"test": "mocha --slow 0",
-		"party": "npm test && npm publish --access public"
+		"pub": "npm test && tsc && npm publish --access public"
 	},
 	"repository": {
 		"type": "git",
