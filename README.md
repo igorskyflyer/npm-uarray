@@ -1,4 +1,4 @@
-## UArray
+## 🎉 UArray 🙌
 
 <p align="center">
 	<img src="https://raw.githubusercontent.com/igorskyflyer/npm-uarray/main/assets/uArray.png" width="140" height="140">
@@ -12,6 +12,10 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy"><strong>Can I Use</strong></a> website.
 </blockquote>
+
+<br>
+
+✨Since version `1.2.0` `UArray` is a hybrid module that supports both CommonJS (legacy) and ES modules, thanks to [Modern Module](https://github.com/igorskyflyer/npm-modern-module).
 
 <br>
 
