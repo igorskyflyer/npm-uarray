@@ -13,11 +13,11 @@
 function UArray(items) {
   const argsCount = arguments.length
 
-  if (argsCount <= 1 && !(arguments[0] instanceof Array)) {
+  if (argsCount === 0) {
     items = []
-  }
-
-  if (argsCount > 1) {
+  } else if (argsCount === 1 && arguments[0] instanceof Array) {
+    items = arguments[0]
+  } else {
     // converts `arguments` object to a regular `Array`,
     // and as a consequence removes the `[Arguments]` message,
     // when console-logging the array 🥳
