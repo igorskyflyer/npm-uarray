@@ -1,5 +1,5 @@
 const chai = require('chai').assert
-const UArray = require('../UArray')
+const UArray = require('../src/index.js')
 
 // pass an Array
 const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓'])
