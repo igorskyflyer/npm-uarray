@@ -1,6 +1,6 @@
 {
 	"name": "@igor.dvlpr/uarray",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "🎉 Provides UArray, an Array type that supports negative indices/indexes, just wrap your regular JavaScript array with UArray() and you are all set! 🙌",
 	"engines": {
 		"node": ">=12.17"
