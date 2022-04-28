@@ -15,10 +15,6 @@ Provides `UArray`, an `Array` type that supports negative indices/indexes, just 
 
 <br>
 
-✨Since version `1.2.0` `UArray` is a hybrid module that supports both CommonJS (legacy) and ES modules, thanks to [Modern Module](https://github.com/igorskyflyer/npm-modern-module).
-
-<br>
-
 <p align="center">
 📢 This is the npm version of this project, if you are looking for the vanilla JavaScript version, check <a href="https://github.com/igorskyflyer/uarray"><strong>this</strong></a>.
 </p>
