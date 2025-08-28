@@ -116,25 +116,33 @@ Licensed under the MIT license which is available here, [MIT license](https://gi
 
 ## 🧬 Related
 
-[]()
+[@igorskyflyer/str-is-in](https://www.npmjs.com/package/@igorskyflyer/str-is-in)
 
-> __
+> _🧵 Provides ways of checking whether a String is present in an Array of Strings using custom Comparators. 🔍_
 
-[]()
+<br>
 
-> __
+[@igorskyflyer/keppo](https://www.npmjs.com/package/@igorskyflyer/keppo)
 
-[]()
+> _🎡 Parse, manage, compare and output SemVer-compatible version numbers. 🛡_
 
-> __
+<br>
 
-[]()
+[@igorskyflyer/chars-in-string](https://www.npmjs.com/package/@igorskyflyer/chars-in-string)
 
-> __
+> _🪐 Provides ways of testing whether an array of chars is present inside a given String. ☄_
 
-[]()
+<br>
 
-> __
+[@igorskyflyer/clone](https://www.npmjs.com/package/@igorskyflyer/clone)
+
+> _🧬 A lightweight JavaScript utility allowing deep copy-by-value of nested objects, arrays and arrays of objects. 🪁_
+
+<br>
+
+[@igorskyflyer/common-color](https://www.npmjs.com/package/@igorskyflyer/common-color)
+
+> _🎨 Provides common Color-related TypeScript types. 🌈_
 
 <br>
 <br>
