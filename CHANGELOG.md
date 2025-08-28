@@ -6,6 +6,10 @@
 
 ## v1.2.3 (*28-Aug-2025*)
 
+- **❌ BREAKING**: migrate to ESM-only
+
+<br>
+
 - **💻 dev**: upgrade Node to >= 22
 - **💻 dev**: upgrade dependencies
 
