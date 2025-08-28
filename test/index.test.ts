@@ -1,68 +1,67 @@
-const chai = require('chai').assert
-const UArray = require('../src/index.js')
+import { describe, expect, it } from 'vitest'
+import { UArray } from '../src/index.ts'
 
 // pass an Array
-const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓'])
+const food: string[] = UArray(['🍟', '🌭', '🍿', '🥙', '🥓'])
 // pass the entries of an Array directly = arguments
-const objects = UArray('🎈', '🎩', '⚽', '🥇', '🎯')
+const objects: string[] = UArray('🎈', '🎩', '⚽', '🥇', '🎯')
 
 describe('UArray tests', () => {
   it('should return an empty array', () => {
-    // @ts-ignore
-    chai.isEmpty(UArray())
+    expect(UArray()).toHaveLength(0)
   })
 
   describe('Array[] used', () => {
     it('should return "🥓"', () => {
-      chai.equal(food[-1], '🥓')
+      expect(food[-1]).toBe('🥓')
     })
 
     it('should return "🍿"', () => {
-      chai.equal(food[-3], '🍿')
+      expect(food[-3]).toBe('🍿')
     })
 
     it('should return "🍟"', () => {
-      chai.equal(food[0], '🍟')
+      expect(food[0]).toBe('🍟')
     })
 
     it('should return undefined', () => {
-      chai.isUndefined(food[-100])
+      expect(food[-100]).toBeUndefined()
     })
 
     it('should return 5', () => {
-      chai.equal(food.length, 5)
+      expect(food.length).toBe(5)
     })
 
     it('should return 6', () => {
       food.push('🥟')
-      chai.equal(food.length, 6)
+      expect(food.length).toBe(6)
     })
   }) // array-used
 
   describe('arguments[] used', () => {
     it('should return "🎯"', () => {
-      chai.equal(objects[-1], '🎯')
+      expect(objects[-1]).toBe('🎯')
     })
 
     it('should return "⚽"', () => {
-      chai.equal(objects[-3], '⚽')
+      expect(objects[-3]).toBe('⚽')
     })
 
     it('should return "🎈"', () => {
-      chai.equal(objects[0], '🎈')
+      expect(objects[0]).toBe('🎈')
     })
 
     it('should return undefined', () => {
-      chai.isUndefined(objects[-100])
+      expect(objects[-100]).toBeUndefined()
     })
 
     it('should return 5', () => {
-      chai.equal(objects.length, 5)
+      expect(objects.length).toBe(5)
     })
 
     it('should return 6', () => {
       objects.push('🎁')
-      chai.equal(objects.length, 6)
+      expect(objects.length).toBe(6)
     })
   }) // arguments-passed
 })
