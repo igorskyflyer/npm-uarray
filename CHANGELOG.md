@@ -10,6 +10,11 @@
 
 <br>
 
+- **✅ fix**: handle `Symbol` and `string` props properly
+- **✅ fix**: fix out of bounds array access
+
+<br>
+
 - **💻 dev**: upgrade Node to >= 22
 - **💻 dev**: upgrade dependencies
 
