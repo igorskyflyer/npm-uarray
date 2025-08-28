@@ -1,45 +1,52 @@
 {
-	"name": "@igor.dvlpr/uarray",
-	"version": "1.2.2",
-	"description": "🎉 Provides UArray, an Array type that supports negative indices/indexes, just wrap your regular JavaScript array with UArray() and you are all set! 🙌",
-	"engines": {
-		"node": ">=12.17"
-	},
-	"sideEffects": false,
-	"main": "./src/index",
-	"types": "./dist/index",
-	"files": [
-		"dist",
-		"src"
-	],
-	"scripts": {
-		"test": "mocha",
-		"pub": "npm test && tsc && npm publish --access public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/npm-uarray.git"
-	},
-	"keywords": [
-		"uarray",
-		"array",
-		"index",
-		"indices",
-		"negative",
-		"igordvlpr",
-		"utility"
-	],
-	"author": "Igor Dimitrijević",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/igorskyflyer/npm-uarray/issues"
-	},
-	"homepage": "https://github.com/igorskyflyer/npm-uarray#readme",
-	"devDependencies": {
-		"@types/chai": "^4.3.1",
-		"@types/mocha": "^9.1.1",
-		"chai": "^4.3.4",
-		"mocha": "^9.2.2",
-		"typescript": "^4.6.3"
-	}
+    "name": "@igorskyflyer/uarray",
+    "version": "2.0.0",
+    "description": "🎉 Provides UArray, an Array type that supports negative indices/indexes, just wrap your regular JavaScript array with UArray() and you are all set! 🙌",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=22.0"
+    },
+    "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest --run",
+        "pub": "pnpm test && git push origin main --tags"
+    },
+    "keywords": [
+        "uarray",
+        "array",
+        "index",
+        "indices",
+        "negative",
+        "utility",
+        "igorskyflyer"
+    ],
+    "license": "MIT",
+    "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
+    "funding": "https://ko-fi.com/igorskyflyer",
+    "homepage": "https://github.com/igorskyflyer/npm-uarray",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igorskyflyer/npm-uarray.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igorskyflyer/npm-uarray/issues"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.0",
+        "@igor.dvlpr/biome-config-igorskyflyer": "^2.0.1",
+        "@types/node": "^22.17.2",
+        "typescript": "^5.9.2",
+        "vitest": "^3.2.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "packageManager": "pnpm@10.15.0"
 }
