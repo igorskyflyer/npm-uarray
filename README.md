@@ -1,52 +1,75 @@
-## 🎉 UArray 🙌
-
-<p align="center">
-	<img src="https://raw.githubusercontent.com/igorskyflyer/npm-uarray/main/assets/uArray.png" width="140" height="140">
-</p>
-
-<br>
-
-Provides `UArray`, an `Array` type that supports negative indices/indexes, just wrap your _regular_ JavaScript array with `UArray()` or pass the elements directly to `UArray()` and you are all set! 🎉🙌
+<div align="center">
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-uarray/main/media/uarray.png" alt="Icon of UArray" width="256" height="256">
+  <h1>UArray</h1>
+</div>
 
 <br>
 
-<blockquote align="center"> ⚠ Uses the built-in <code>Proxy</code> object, check browser compatibility on the <a href="https://caniuse.com/proxy"><strong>Can I Use</strong></a> website.
-</blockquote>
+<h4 align="center">
+  🎉 Provides UArray, an Array type that supports negative indices/indexes, just wrap your regular JavaScript array with UArray() and you are all set! 🙌
+</h4>
 
 <br>
-
-<p align="center">
-📢 This is the npm version of this project, if you are looking for the vanilla JavaScript version, check <a href="https://github.com/igorskyflyer/uarray"><strong>this</strong></a>.
-</p>
-
 <br>
 
-### Usage
+## 📃 Table of Contents
+
+- [Features](#-features)
+- [Usage](#-usage)
+- [Examples](#️-examples)
+- [Changelog](#-changelog)
+- [Support](#-support)
+- [License](#-license)
+- [Related](#-related)
+- [Author](#-author)
 
 <br>
-
-ℹ Works like negative indices in other languages, e.g. **-1** picks that **last** element, **-2,** the **second to last**, etc.
-
 <br>
 
-✨ Since `v.1.1.0` the function signature has been changed and now it supports 2 different ways of action. You can now pass a single parameter of type `Array` or multiple parameters of any primitive type.
+## 🤖 Features
+
+- 🔢 Negative indexing (-1, -2, etc.)
+- 🧳 Accepts array or multiple values
+- 🪞 Behaves like a native array
+- 🛠️ Supports all standard methods
+- 🧼 Safe fallback for non-numeric keys
+- 🧪 Ideal for reverse access and testing
+- 🚀 Drop-in replacement, zero config
 
 <br>
+<br>
 
-Install it first by doing,
+## 🕵🏼 Usage
 
-```shell
-npm i "@igor.dvlpr/uarray"
+Install it by executing any of the following, depending on your preferred package manager:
+
+```bash
+pnpm add @igorskyflyer/uarray
+```
+
+```bash
+yarn add @igorskyflyer/uarray
+```
+
+```bash
+npm i @igorskyflyer/uarray
 ```
 
 <br>
 
-and then use it,
+> ℹ️
+> Uses the built-in `Proxy` object, check browser compatibility on the [Can I Use](https://caniuse.com/proxy) website.
+>
 
 <br>
+<br>
+
+## 🗒️ Examples
+
 
 ```js
-const UArray = require('@igor.dvlpr/uarray')
+import { UArray } from '@igorskyflyer/uarray'
+
 const food = UArray(['🍟', '🌭', '🍿', '🥙', '🥓']) // array passed
 const objects = UArray('🎈', '🎩', '⚽', '🥇', '🎯') // no array passed, just direct values
 
@@ -58,7 +81,64 @@ console.log(objects[-3]) // prints '⚽'
 ```
 
 <br>
+<br>
 
-<blockquote align="center">
-🎉 Happy coding! 🙌
-</blockquote>
+## 📝 Changelog
+
+📑 The changelog is available here, [CHANGELOG.md](https://github.com/igorskyflyer/npm-uarray/blob/main/CHANGELOG.md).
+
+<br>
+<br>
+
+## 🪪 License
+
+Licensed under the MIT license which is available here, [MIT license](https://github.com/igorskyflyer/npm-uarray/blob/main/LICENSE).
+
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
+
+## 🧬 Related
+
+[]()
+
+> __
+
+[]()
+
+> __
+
+[]()
+
+> __
+
+[]()
+
+> __
+
+[]()
+
+> __
+
+<br>
+<br>
+<br>
+
+## 👨🏻‍💻 Author
+Created by **Igor Dimitrijević** ([*@igorskyflyer*](https://github.com/igorskyflyer/)).
